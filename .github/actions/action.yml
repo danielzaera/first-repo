@@ -1,0 +1,24 @@
+name: "maths"
+
+description: "operations"
+
+inputs:
+  operation-A:
+    description: "valor1"
+    required: true
+    
+  operation-B:
+    description: "valor2"
+    required: true
+
+  operation:
+    description: "operacion "
+    required: true
+
+outputs:
+  result:
+    description: "result" 
+    
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
